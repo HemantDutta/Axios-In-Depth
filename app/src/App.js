@@ -1,8 +1,9 @@
+import FirstRequest from "./components/1-first-request";
 
 function App() {
   return (
     <>
-      <span>Axios In Depth</span>
+      <FirstRequest />
     </>
   )
 }
