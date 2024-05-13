@@ -28,7 +28,7 @@ const PostRequest = () => {
           </label>
           <input
             type='text'
-            className='form-input border border-gray-500 rounded'
+            className='form-input border border-gray-500 rounded px-2 py-1'
             id='name'
             value={name}
             onChange={(e) => setName(e.target.value)}
@@ -40,7 +40,7 @@ const PostRequest = () => {
           </label>
           <input
             type='email'
-            className='form-input border border-gray-500 rounded'
+            className='form-input border border-gray-500 rounded px-2 py-1'
             id='email'
             value={email}
             onChange={(e) => setEmail(e.target.value)}

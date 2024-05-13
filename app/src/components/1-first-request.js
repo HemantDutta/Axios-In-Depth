@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import axios from "axios";
 
-const url = 'https://randomuser.me/pi/';
+const url = 'https://randomuser.me/api/';
 
 const FirstRequest = () => {
 
