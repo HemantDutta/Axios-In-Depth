@@ -1,13 +1,11 @@
 import { useEffect } from 'react';
-import authFetch from '../axios/custom';
-
-const randomUserUrl = 'https://randomuser.me/api';
+import userFetch from '../axios/custom';
 
 const CustomInstance = () => {
   const fetchData = async () => {
     try {
       //Any argument that you pass in this authFetch custom instance will be used as the extension to the baseURL
-      const response = await authFetch("/api");
+      const response = await userFetch("/api");
       console.log(response);
     } catch (error) {
       console.log(error.response);
